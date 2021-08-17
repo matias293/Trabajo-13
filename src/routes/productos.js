@@ -6,12 +6,6 @@ import Product from '../Productos'
 const products = new Product()
 const router = express.Router();
 
-// router.post('/productos/guardar', (req, res) => {
-  
-// 	const {title,price,thumbnail} = req.body;
-
-//   products.guardarProducto(title,price,thumbnail)
-// });
 
 
   router.get('/productos/listar', (req, res) => {
